@@ -1,0 +1,28 @@
+Task List
+
+X   Modularize the Code:
+        Convert the notebook into a modular Python project with separate files for data handling,
+        model definition, training, and evaluation. This will help you better manage and extend the codebase.
+    Explore Different Optimizers:
+        Experiment with different optimizers like Adam, SGD.
+        Document the differences in training performance and final accuracy.
+    Try Various Learning Rate Schedulers:
+        Implement learning rate schedulers (e.g., ReduceLROnPlateau, StepLR).
+        Observe how each impacts the model's training speed and convergence.
+    Modify the Autoencoder Architecture:
+        Experiment with changing the number of layers and channels in the encoder and decoder.
+        Try a deeper or shallower architecture, and analyze how these changes affect the model’s ability to detect anomalies.
+    Experiment with Image Size:
+        Test different input image sizes (e.g., 128x128, 256x256, and 512x512).
+        Observe the impact on model performance and training time.
+        Note any trade-offs between image resolution and accuracy.
+    Hyperparameter Tuning and Ablation Study:
+        Perform ablation studies by adjusting learning rate, batch size, and training epochs.
+        Use TensorBoard to log and compare different runs.
+    Data Augmentation:
+        Experiment with data augmentation techniques in the data_transform function (e.g., rotations, flips).
+        Analyze how these augmentations impact model performance.
+    TensorBoard Integration:
+        Log training/validation losses, SSIM metrics, and example reconstructions in TensorBoard to visually monitor your progress.
+    Summarize Your Findings:
+        For experiments, send me the tensorboard visualizations, such as which settings performed best and why certain configurations worked better than others.
